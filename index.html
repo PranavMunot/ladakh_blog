@@ -1,0 +1,296 @@
+<html>
+    <head>
+            
+        
+        <link href="https://fonts.googleapis.com/css?family=Cantarell:700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu:500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/895ae8ff67.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <title>Ladakh - A Dream</title>
+        <style>
+            #navigation_css{
+              padding: 10px 0px 15px 0px;
+            }
+            html{
+                width: 100%;
+                scroll-behavior: smooth;
+                overflow-Y: scroll;
+            }
+            
+            #links{
+               /* border-bottom:1px solid white;*/
+                transform: inherit; 
+                transition-duration: 500ms;
+                color: white;
+                transition-property: height, background-color;
+            }
+            #links:hover{
+               background-color: antiquewhite;
+               color: black;
+                height: 100%;
+                transition-duration: 300ms;
+                
+            }
+            #bttn:hover{
+                color: #184D75 !important;
+                font-weight: bold;
+                transition-duration: 900ms;
+            }
+            #ima{
+             height: 40rem; 
+             width: 45% !important;
+             margin-left: 150px;
+             margin-top: 5%;
+             margin-bottom: 5%;
+            }
+            #ima_1{
+             height: auto;
+             text-align: center;
+             width: 70%;
+             text-align: center;
+             margin: 0px auto;
+             margin-left: 18%;
+             border-radius: 3%;
+             box-shadow: 3px 3px 9px 1px black;
+            }
+            #ima_2{
+             height: auto;
+             text-align: center;
+             width: 70%;
+             text-align: center;
+             margin: 0px auto;
+             margin-left: 15%;
+             
+             box-shadow: 3px 3px 9px 1px black;
+            }
+            
+            #lo{
+              width: 70px;
+              height: 100px;
+            }
+            #text-1{
+                font-family: 'Cormorant Garamond', serif;
+              font-size: 850%;
+              color: aliceblue;
+              text-align: center;
+              padding-top:0%;
+              margin-bottom:0%;
+              text-shadow:4px 4px 2px black; 
+              padding-left:10%;
+            }
+            #text-0{
+               padding-right:20%; 
+              font-size: 700%;
+              color: aliceblue;
+              text-align: center;
+              padding-top:18%;
+              text-shadow:4px 4px 2px black;
+                font-family: 'Great Vibes', cursive;
+            }
+            #page_1{
+                background-image: url("top_first.JPG");
+              background-repeat: no-repeat;
+              background-size: cover;
+              background-position: center center;
+              height: 100%;
+            }
+            #page_2{
+                padding:4% 0%; 
+            }
+            #page_4{
+                padding:4% 0%; 
+            }
+            #page_5{
+                padding:4% 0%; 
+            }
+            #page_3{
+                padding:4% 0%;
+                color: aliceblue;
+                background-image: url("IMG_0765.JPG");
+              background-repeat: no-repeat;
+              background-size: cover;
+              background-position: center center;
+              height: 120%; 
+            }
+            #para_1{
+                font-family: 'Cantarell', sans-serif;
+                font-weight: 700;
+                padding-right: 10px;
+                font-style: normal;
+                line-height: 2rem;
+            }
+            #para_2{
+                font-family: 'Cantarell', sans-serif;
+                font-weight: 700;
+                padding-right: 10px;
+                margin: 3% 20%;
+                font-style: normal;
+                line-height: 2rem;
+            }
+            #head-1{
+                font-family: 'Ubuntu', sans-serif;
+                line-height: 1.5rem;
+                height:15%;
+                margin-top: 3%;
+            }
+            #head-4{
+                font-family: 'Ubuntu', sans-serif;
+                font-size: 180%;
+                margin-bottom: 3%;
+            }
+            #text{
+                width: 100%;
+                margin: 2% auto;
+            }
+
+            @media only screen and (max-width: 600px) {
+            #page_3{
+                padding:4% 0%;
+                color: aliceblue;
+                background-image: url("IMG_0765.JPG");
+              background-repeat: no-repeat;
+              background-size: cover;
+              background-position: center center;
+              height: 200%; 
+            }
+           }
+            
+        </style>
+    </head>
+    <body>
+    <section id="main">
+        <section id="page_1">
+        <div id="navigation">
+          <nav id="navigation_css" class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand ml-5" href="#page_1">Ladakh</a>
+            <button class="btn btn-dark navbar-toggler" type="button" data-toggle="collapse" data-target="#toggle_1" aria-controls="toggle_1" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="text-align navbar-toggle-icon">Menu</span>
+            </button>
+            <div class="collapse navbar-collapse" id="toggle_1">
+            <ul class="navbar-nav mx-auto">
+                
+                <li id="links" class="nav-item"><a href="#page_2" class="px-5 nav-link">Let's Dream...</a></li>
+                <li id="links" class="nav-item"><a href="#page_3"  class="px-5 nav-link">Spirituality</a></li>
+                <li id="links" class="nav-item"><a href="#page_4" class="px-5 nav-link">Exploring Ladakh</a></li>
+                
+                <li id="links" class="nav-item"><a class="px-5 nav-link" href="#page_5">At the day's End</a></li>
+            </ul>
+          </div>
+          </nav>
+        </div>
+        
+            <div>
+                <h3 class="text-wrap" id="text-0">Heavenly</h3>
+                <h1 id="text-1">Ladakh...</h1>
+            </div>
+        
+        </section>
+        <section class="container-fluid " id="page_2">
+            <h1 id="head-1" class="ml-5 my-2">Let's Dream the Paradise...</h1>
+        
+        <div class="row mb-5">
+            <div class="col-md-6 col-sm">
+                <img id="ima_1" src="IMG_0616.JPG">
+            </div>
+            <div class="col-md-6 col-sm">
+                <p class="p-5" id="para_1">
+                    Many times we must have come across this word “Paradise”. You know what wiki says about it
+                    paradise is it's "a place of an exceptional happiness and delight". A place or condition of great happiness
+                    where everything is exactly as you would like it to be...
+                </p>
+                <p class="px-5 text-bold" id="para_1">
+                        "But One will never understand its true meaning until they feel it."
+                    </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-sm">
+                    <p class="p-5 mt-5 ml-5" id="para_1">
+                        Ahh... The dream of every biker, the ride of Classic Royal Enfield on the uneven / snowy roads of ladakh with the flying colourful flags attached to the handle.
+                        </p>
+                        
+            </div>
+            <div class="col-md-6 col-sm">
+                    <img id="ima_1" class="mt-5 ml-5" src="IMG_0686.JPG">
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid " id="page_3">
+        <h1 id="head-1" class="ml-5 my-2 mt-5">Spirituality</h1>
+    <div class="row">
+        <div class="col-lg-4 col-md align-self-left">
+                <img id="ima_1" src="DSC_0776.JPG">
+                <img id="ima_1" class="pt-3" src="DSC_0824.JPG">
+        </div>
+        <div class="col-lg-4 col-md align-self-center">
+            <p class="px-5" id="para_1">
+                    Ladakh -- <strong>Once the hub of the ancient Silk Route</strong> -- is aptly described as a place where Buddhist spirituality and its ancient culture reign supreme amidst virgin nature.
+            </p>
+        </div>
+        <div class="col-lg-4 col-md align-self-right">
+                <img id="ima_1" class="img-fluid" style="height: 110%;" src="DSC_0838.JPG">
+        </div>
+    </div>
+    
+</section>
+<section class="container-fluid " id="page_4">
+        <h1 id="head-1" class="ml-5 mt-5">Exploring Ladakh</h1>
+        <h4 id="head-4" class="ml-5">Khardung La - At the  World's Peak... </h4>
+        <div class="row mb-5">
+                <div class="col col-sm">
+                    <img id="ima_2" src="DSC_0650.JPG">
+                </div>
+               
+                <div id="text">
+                    <p class="text-center" id="para_2">
+                            The Ocean of Snow, The Khardung La. The place where you every where you only see blanket of snow. As the name itself excites anyone who plans a trip to Ladakh. It is the highest motorable mountain pass in the world at 18380 feet! It is like driving over a summit!
+                    </p>     
+                </div>
+        </div>
+        <h4 id="head-4" class="ml-5">Pangong Lake - The blueness</h4>
+        <div class="row mb-5">
+                <div class="col col-sm">
+                    <img id="ima_2" src="IMG_1356.JPG">
+                </div>
+               
+                <div id="text">
+                    <p class="text-center" id="para_2">
+                            The famous and sparkling blue Pangong lake is situated near Leh-Ladakh in the Himalayas, approximately at the height of 4350 meters. This endorheic lake is 12 kilometres long and extends from India to Tibet, with two-thirds of it lying in the latter. Owing to its altitude, the Pangong Lake temperature ranges from -5°C to 10°C as a result of which it freezes completely during winters in spite of its salinity. A unique feature of the lake is that it does not remain blue throughout the year or even the day, rather it changes colours from azure to light blue to green and grey too!
+                    </p>     
+                </div>
+        </div>
+        <h4 id="head-4" class="ml-5">Nubra Valley </h4>
+        <div class="row"> 
+                <div class="col col-sm">
+                    <img id="ima_2" src="IMG_1420.JPG">
+                </div>
+               
+                <div id="text">
+                    <p class="text-center" id="para_2">
+                            The combination of Desert + Water + Green Mountains is Nubra Valley. Nubra Valley is an ideal place to fit into the acclimatization schedule of your Ladakh trip once you reach Leh because it is at a lower altitude than Leh, at an average altitude of 10000 Feet or 3048 Mtrs. 
+
+                    </p>
+                    <p class="text-center" id="para_2">
+                        The combination of Desert + Water + Green Mountains is Nubra Valley. Nubra Valley is an ideal place to fit into the acclimatization schedule of your Ladakh trip once you reach Leh because it is at a lower altitude than Leh, at an average altitude of 10000 Feet or 3048 Mtrs.     
+                    </p>     
+                </div>
+            </div>   
+            <section class="container-fluid " id="page_5">
+                    <h1 id="head-1" class="ml-5 mt-2">At the End ...</h1>
+                    <div class="row mb-5"> 
+                            <div class="col col-sm">
+                                <img id="ima_2" src="IMG_1267.JPG">
+                                <p class="text-center" id="para_2">
+                                    The best place to observe is the famous Pangong lake is to staying overnight in one of these Pangong Tso hotels. 
+                                </p>        
+                            </div>
+            </section>        
+</section>
+
+    </body>
+</html>
